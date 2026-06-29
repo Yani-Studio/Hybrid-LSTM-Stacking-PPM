@@ -10,6 +10,9 @@
 
 </div>
 
+⚠️ Copyright Notice
+Copyright (c) 2026 Kang Gyu Min. All rights reserved.
+
 <br/>
 
 This project is a **Predictive Process Monitoring (PPM)** system that predicts bottleneck occurrences in business processes using real-world financial log data from the **BPI Challenge 2012 (BPIC 2012)**. 
