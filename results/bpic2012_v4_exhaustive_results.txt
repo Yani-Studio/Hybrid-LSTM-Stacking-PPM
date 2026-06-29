@@ -1,0 +1,102 @@
+
+[93m============================================================[0m
+
+  Welcome to [96mPM4Py[0m — Community Version
+  Open-Source License (AGPL v3)
+
+  📚 Docs & Examples:
+     https://processintelligence.solutions/pm4py
+
+  ⚖️  [93mLicense: AGPL v3 — Commercial use requires open-sourcing your application.[0m
+     Business use without open-sourcing? A commercial license is available:
+     https://processintelligence.solutions/pm4py#licensing
+
+[93m============================================================[0m
+
+============================================================
+🚀 V4 Leakage-Free 하이브리드 파이프라인 (FULL 전수조사) 시작
+============================================================
+
+📦 데이터 로딩 및 LSTM 훈련 중...
+parsing log, completed traces ::   0%|          | 0/13087 [00:00<?, ?it/s]parsing log, completed traces ::   4%|▎         | 482/13087 [00:00<00:02, 4806.15it/s]parsing log, completed traces ::   9%|▉         | 1241/13087 [00:00<00:01, 6441.39it/s]parsing log, completed traces ::  15%|█▌        | 2028/13087 [00:00<00:01, 7087.17it/s]parsing log, completed traces ::  21%|██▏       | 2797/13087 [00:00<00:01, 7312.30it/s]parsing log, completed traces ::  28%|██▊       | 3645/13087 [00:00<00:01, 7732.61it/s]parsing log, completed traces ::  35%|███▌      | 4581/13087 [00:00<00:01, 8274.32it/s]parsing log, completed traces ::  41%|████▏     | 5409/13087 [00:00<00:01, 6925.37it/s]parsing log, completed traces ::  47%|████▋     | 6136/13087 [00:00<00:00, 7002.76it/s]parsing log, completed traces ::  53%|█████▎    | 6894/13087 [00:00<00:00, 7166.74it/s]parsing log, completed traces ::  58%|█████▊    | 7629/13087 [00:01<00:00, 7137.49it/s]parsing log, completed traces ::  64%|██████▍   | 8376/13087 [00:01<00:00, 7229.41it/s]parsing log, completed traces ::  70%|██████▉   | 9110/13087 [00:01<00:00, 7258.14it/s]parsing log, completed traces ::  75%|███████▌  | 9867/13087 [00:01<00:00, 6251.66it/s]parsing log, completed traces ::  81%|████████  | 10550/13087 [00:01<00:00, 6403.78it/s]parsing log, completed traces ::  87%|████████▋ | 11338/13087 [00:01<00:00, 6804.07it/s]parsing log, completed traces ::  93%|█████████▎| 12188/13087 [00:01<00:00, 7278.67it/s]parsing log, completed traces :: 100%|█████████▉| 13052/13087 [00:01<00:00, 7668.53it/s]parsing log, completed traces :: 100%|██████████| 13087/13087 [00:01<00:00, 7153.70it/s]
+
+🏋️ 45개 단일 모델 전수 훈련 시작...
+   [ 1/45] RF_Default           → F1: 0.8422
+   [ 2/45] RF_Entropy           → F1: 0.8432
+   [ 3/45] RF_Shallow           → F1: 0.8401
+   [ 4/45] GBM_Default          → F1: 0.8497
+   [ 5/45] GBM_Fast             → F1: 0.8485
+   [ 6/45] GBM_Exp              → F1: 0.8457
+   [ 7/45] HistGBM_Default      → F1: 0.8552
+   [ 8/45] HistGBM_MaxIter200   → F1: 0.8518
+   [ 9/45] AdaBoost_50          → F1: 0.8443
+   [10/45] AdaBoost_100         → F1: 0.8416
+   [11/45] ExtraTrees_50        → F1: 0.8371
+   [12/45] ExtraTrees_Ent       → F1: 0.8277
+   [13/45] Bagging_10           → F1: 0.8400
+   [14/45] Bagging_30           → F1: 0.8514
+   [15/45] DT_Default           → F1: 0.8018
+   [16/45] DT_Shallow           → F1: 0.8403
+   [17/45] ExtraTree_Def        → F1: 0.8135
+   [18/45] LogReg_L2            → F1: 0.8476
+   [19/45] LogReg_C01           → F1: 0.8458
+   [20/45] LogReg_LibLin        → F1: 0.8482
+   [21/45] LogReg_Newton        → F1: 0.8482
+   [22/45] Ridge_Def            → F1: 0.8363
+   [23/45] Ridge_Alpha10        → F1: 0.8371
+   [24/45] SGD_Hinge            → F1: 0.8313
+   [25/45] SGD_LogLoss          → F1: 0.8426
+   [26/45] SGD_ModHuber         → F1: 0.7834
+   [27/45] PassiveAgg_C1        → F1: 0.7188
+   [28/45] PassiveAgg_C01       → F1: 0.7207
+   [29/45] Perceptron_Def       → F1: 0.7957
+   [30/45] SVC_Lin_Fast         → F1: 0.8488
+   [31/45] SVC_Lin_C01          → F1: 0.8476
+   [32/45] MLP_Shallow          → F1: 0.8433
+   [33/45] MLP_Deep             → F1: 0.8218
+   [34/45] MLP_Wide             → F1: 0.8300
+   [35/45] KNN_3                → F1: 0.8239
+   [36/45] KNN_5                → F1: 0.8370
+   [37/45] KNN_10               → F1: 0.8456
+   [38/45] KNN_20               → F1: 0.8402
+   [39/45] NearestCentroid      → F1: 0.7868
+   [40/45] GaussianNB           → F1: 0.7929
+   [41/45] BernoulliNB          → F1: 0.0000
+   [42/45] MultinomialNB        → F1: 0.7854
+   [43/45] ComplementNB         → F1: 0.7854
+   [44/45] LDA                  → F1: 0.8363
+
+🔥 앙상블 조합 탐색 (K=2~25, 17개 기법)...
+   ✅ Top- 2 결합 완료 (17개 기법)
+   ✅ Top- 3 결합 완료 (17개 기법)
+   ✅ Top- 4 결합 완료 (17개 기법)
+   ✅ Top- 5 결합 완료 (17개 기법)
+   ✅ Top- 6 결합 완료 (17개 기법)
+   ✅ Top- 7 결합 완료 (17개 기법)
+   ✅ Top- 8 결합 완료 (17개 기법)
+   ✅ Top- 9 결합 완료 (17개 기법)
+   ✅ Top-10 결합 완료 (17개 기법)
+   ✅ Top-11 결합 완료 (17개 기법)
+   ✅ Top-12 결합 완료 (17개 기법)
+   ✅ Top-13 결합 완료 (17개 기법)
+   ✅ Top-14 결합 완료 (17개 기법)
+   ✅ Top-15 결합 완료 (17개 기법)
+   ✅ Top-16 결합 완료 (17개 기법)
+   ✅ Top-17 결합 완료 (17개 기법)
+   ✅ Top-18 결합 완료 (17개 기법)
+   ✅ Top-19 결합 완료 (17개 기법)
+   ✅ Top-20 결합 완료 (17개 기법)
+   ✅ Top-21 결합 완료 (17개 기법)
+   ✅ Top-22 결합 완료 (17개 기법)
+   ✅ Top-23 결합 완료 (17개 기법)
+   ✅ Top-24 결합 완료 (17개 기법)
+   ✅ Top-25 결합 완료 (17개 기법)
+
+============================================================
+📈 [최고 성능 단일 모델 (Leakage-Free)]
+ - HistGBM_Default (F1: 0.8552)
+
+🏆 [최고 성능 앙상블 (Leakage-Free)]
+ - Top-4 / Stacking_LogReg (F1: 0.8662)
+============================================================
+⏱️ 총 소요 시간: 98.6분

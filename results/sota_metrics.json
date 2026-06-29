@@ -1,0 +1,22 @@
+{
+  "SingleBest": {
+    "Accuracy": 0.928571,
+    "Precision": 0.867924,
+    "Recall": 0.842748,
+    "F1-Score": 0.855151,
+    "ConfusionMatrix": [
+      [1879, 84],
+      [103, 552]
+    ]
+  },
+  "EnsembleSOTA": {
+    "Accuracy": 0.933919,
+    "Precision": 0.877743,
+    "Recall": 0.854962,
+    "F1-Score": 0.866203,
+    "ConfusionMatrix": [
+      [1885, 78],
+      [95, 560]
+    ]
+  }
+}
